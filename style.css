@@ -184,7 +184,82 @@ button a{
 /*Section 3: contact*/
 .section-contact{
      background-color: #223D6E;
+     padding: 50px;
+     
 }
+
+.section-contact h2{
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-contact i{
+    font-size: 32px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.section-contact .contact-box {
+    display: flex;
+    color: #fff;
+}
+.section-contact .contact-box .section-contact-info{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #25564b;
+}
+
+.section-contact .contact-box form{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #011b3d;
+    color: #fff;
+    padding: 20px;
+}
+
+.section-contact .contact-box form input,
+.section-contact .contact-box textarea{
+    background-color: transparent;
+    border: 0.1px solid var(--background-color);
+    padding: 5px;
+    outline: none;
+    resize: none;
+
+}
+
+.section-contact .contact-box form button{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: unset;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+    padding: 32px;
+
+}
+
+.section-contact .contact-box form button i{ 
+   padding-left: 25px;
+   font-size: 16px;
+}
+
+.section-contact .contact-box form button:hover{ 
+    color: #fe7867;
+ }
+ .section-contact .contact-box form button i:hover{ 
+    color: #fe7867;
+ }
+ 
+
 /*
 .contact-box{
     display: flex;
