@@ -29,28 +29,28 @@ h2{
     align-items: center;
     height: 80px;
     border-radius: 14px 14px 0 0;
-    background-color: #25564b;
+    background-color: #001837;
     opacity: 0.8;
     position: fixed;
-    width: 100%;
-    padding: 0, 10px, 0, 10px;
+    width: 100%;   
 }
 
 .logo img{
     width: 120px;
     height: auto;
+    color: #fff;
 }
 
 .menubar a{
 padding: 20px;
 text-decoration: none;
 font-size: 18px;
-color: var(--text-color);
+color: #fff;
 
 }
 /*Section 0: Navbar*/
 .section-hero{
-    background-image: url(img/bgimg.jpg);
+    background-image: url(img/bg2.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -59,12 +59,14 @@ color: var(--text-color);
     align-items: center;
     color: var(--text-color);
     text-align: center;
+    opacity: 10;
 
 }
 
 .section-hero .text{
     margin-top: 250px;
     width: 50%;
+    color: azure;
  
 }
 .section-hero .text h1{
