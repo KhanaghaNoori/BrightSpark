@@ -27,6 +27,10 @@ a{
     color: #fff;
 }
 
+a:hover{
+    color: #fe7867;
+}
+
 /*Section 0: Navbar*/
 .navigation{
     display: flex;
@@ -52,7 +56,11 @@ font-size: 18px;
 color: #fff;
 
 }
-/*Section 0: Navbar*/
+.menubar a:hover{
+    color: #fe7867;
+}
+
+/*Section 1: hero*/
 .section-hero{
     background-image: url(img/bg2.jpg);
     height: 100vh;
@@ -67,7 +75,6 @@ color: #fff;
 
 }
 
-/*Section 1: hero*/
 .section-hero .text{
     margin-top: 250px;
     width: 50%;
@@ -175,15 +182,37 @@ button a{
 }
 
 /*Section 3: contact*/
-.section-contact{
+.contact-box{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
     padding: 50px;
     background-color: #223D6E;
+   
+}
+
+
+.section-contact .contact-box{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #223D6E;
+}
+
+.section-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: #fff;
-    
+    background-color: #25564b;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.section-contact-form{
+    background-color: #011b3d;
+    color: #fff;
 }
 
 .section-contact .info h2{
@@ -193,11 +222,11 @@ padding-bottom: 15px;
 .section-contact form{
     padding: 50px;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
  }
  
 
-/*Section 2: Services*/
+/*Section 4: footer*/
 .footer-section{
     display: flex;
     justify-content: space-between;
@@ -214,6 +243,21 @@ img{
     height: auto;
     filter: grayscale(100%);
 }
+
+.footer-section img{
+    width: 80px;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+img:hover{
+    filter: none;
+}
+
 #copywrite{
 color: #fff;
+}
+
+#privacy{
+    font-size: 14px;
 }
