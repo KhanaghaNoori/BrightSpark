@@ -29,20 +29,25 @@
                 </div>
                 
                 <div class="menubar">
-                        <a href="#">Services</a>
-                        <a href="#">Contact</a>
-                        <a href="#">Privacy</a>
+                        <a href="#hero">Home</a>
+                        <a href="#calltoaction">Services</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#privacy">Privacy</a>
                 
                 </div>
             </nav>
               <!--Section 1: Hero-->
-                <div class="section-hero">
+                <div id="hero" class="section-hero">
                     <div class="text">
                         <h1>Empowering Your Vision with Creative Marketing Solutions</h1>
                         <p>Grow Your Business with Tailored Marketing Strategies From startups to small businesses and freelancers, we help you scale with personalized, data-driven marketing. Let's take your brand to the next level!</p>
                         
-                        <button id="calltoaction" class="call-to-action">  <h2>Get a Free Consultation</h2>
-                            <i class="fa-solid fa-angles-down"></i></button>
+                        <button onclick="calltoaction" class="call-to-action" type="button"> 
+                           <a href="#calltoaction"> 
+                            <h2>Get a Free Consultation</h2>
+                            <i class="fa-solid fa-angles-down"></i>
+                        </a>
+                        </button>
                       <!-- <div id="calltoaction" class="call-to-action">
                             <h2>Get a Free Consultation</h2>
                             <i class="fa-solid fa-angles-down"></i>
@@ -50,50 +55,61 @@
                     </div>
                 </div>
         </section>
+
  <!--Section 2: Services-->
  <section id="services" class="section-services">
     <h2>Our Services</h2>
-    <div class="service">
-        <i class="fa-solid fa-bullseye"></i>
-        <h2>Brand Identity & Strategy</h2>
-        <ul>
-            <li>Brand Development</li>
-            <li>Content Creation & Copywriting</li>
-        </ul>
-    </div>
-    <div class="service">
-        <i class="fa-solid fa-arrow-up-right-dots"></i>
-        <h2>Digital Marketing</h2>
-        <ul>
-            <li>Digital Marketing Strategy</li>
-            <li>SEO & SEM Services</li>
-        </ul>
-    </div>
-    <div class="service">
-        <i class="fa-solid fa-ring"></i>
-        <h2>Social Media & Engagement</h2>
-        <ul>
-            <li>Social Media Management</li>
-            <li>Influencer Partnerships</li>
-        </ul>
-    </div>
-    <div class="service">
-        <i class="fa-solid fa-globe"></i>
-        <h2>Website</h2>
-        <ul>
-            <li>Web Design & Development</li>
-            <li>UX/UI Design</li>
-        </ul>
-        <p></p>
+    <div id="calltoaction" class="our-services">
+        <div class="service-top ">
+            <div id="bg1" class="service">
+                <i class="fa-solid fa-bullseye"></i>
+                <h2>Brand Identity & Strategy</h2>
+                <ul>
+                    <li>Brand Development</li>
+                    <li>Content Creation & Copywriting</li>
+                </ul>
+            </div>
+            <div  id="bg2" class="service">
+                <i class="fa-solid fa-arrow-up-right-dots"></i>
+                <h2>Digital Marketing</h2>
+                <ul>
+                    <li>Digital Marketing Strategy</li>
+                    <li>SEO & SEM Services</li>
+                </ul>
+            </div>
+         
+        </div>
+        <div class="service-bottom ">
+            <div id="bg2" class="service">
+                <i class="fa-solid fa-ring"></i>
+                <h2>Social Media & Engagement</h2>
+                <ul>
+                    <li>Social Media Management</li>
+                    <li>Influencer Partnerships</li>
+                </ul>
+            </div>
+            <div id="bg1" class="service">
+                <i class="fa-solid fa-globe"></i>
+                <h2>Website</h2>
+                <ul>
+                    <li>Web Design & Development</li>
+                    <li>UX/UI Design</li>
+                </ul>
+            </div>
+        </div>
+       
     </div>
  </section>
 <div>
 
      <!--Section 3: Contact-->
-     <section class="section-contact">
-        <h2>Ready to Grow Your Business? Let's Talk!</h2>
-       <span>Fill out the form below and one of our experts will reach out to you shortly.</span>
-    <div class="contact">
+     <section id="contact" class="section-contact">
+        <div class="info">
+            <h2>Ready to Grow Your Business? Let's Talk!</h2>
+            <span>Fill out the form below and one of our experts will reach out to you shortly.</span>
+        </div>
+       
+    <div class="contacts">
         <form action="contact-form">
             <label for="name">Name
                 <input type="text" id="name">
@@ -104,24 +120,30 @@
             </label>
             <textarea name="text" id="message"></textarea>
             <button type="submit">Get Started</button>
-        </form>
-    </div>
-</div>
+          </form>
+         </div>
+         </div>
      </section>
     
     </main>
 <!--Section 5: footer-->
         <section  id="footer" class="footer-section">
+            <div class="footer-hero">
                 <div class="footer-logo"></div>
-                    <a href="index.html"><img id="img" src="img/logo.png" alt=""></a>
-                </div>
-                
-                <div class="menubar">
-                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                
+                <a href="index.html"><img id="img" src="img/logo.png" alt=""></a>
+            </div>
+            
+            <div class="menubar">
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            
+            </div>
+
+                <div id="Privacy">
+                    <span id="copywrite"> &copy; Khanagha Noori 2024 |</span>
+                    <a href="#privacy">Privacy</a>
                 </div>
             </section>
 </body>
