@@ -182,6 +182,10 @@ button a{
 }
 
 /*Section 3: contact*/
+.section-contact{
+     background-color: #223D6E;
+}
+/*
 .contact-box{
     display: flex;
     justify-content: center;
@@ -189,8 +193,6 @@ button a{
     background-color: #223D6E;
    
 }
-
-
 .section-contact .contact-box{
     display: flex;
     justify-content: center;
@@ -225,7 +227,14 @@ padding-bottom: 15px;
      flex-direction: row;
  }
  
-
+ .section-contact .section-contact-form form input, .section-contact-form .contact-fom form textarea{ 
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+ }
+*/
 /*Section 4: footer*/
 .footer-section{
     display: flex;
